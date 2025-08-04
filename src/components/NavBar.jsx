@@ -31,10 +31,10 @@ const Navbar = () => {
           <MenuIcon />
         </IconButton>
         <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleMenuClose}>
-          <MenuItem component={Link} to="/" onClick={handleMenuClose}>Dashboard</MenuItem>
-          <MenuItem component={Link} to="/employee-form" onClick={handleMenuClose}>Add Employee</MenuItem>
-          <MenuItem component={Link} to="/departments" onClick={handleMenuClose}>Departments</MenuItem>
-          <MenuItem component={Link} to="/login" onClick={handleMenuClose}>Login</MenuItem>
+          <MenuItem component={Link} to="/jenkinserp/" onClick={handleMenuClose}>Dashboard</MenuItem>
+          <MenuItem component={Link} to="/jenkinserp/employee-form" onClick={handleMenuClose}>Add Employee</MenuItem>
+          <MenuItem component={Link} to="/jenkinserp/departments" onClick={handleMenuClose}>Departments</MenuItem>
+          <MenuItem component={Link} to="/jenkinserp/login" onClick={handleMenuClose}>Login</MenuItem>
         </Menu>
 
         <Typography variant="h6" sx={{ flexGrow: 1, ml: 2 }}>
